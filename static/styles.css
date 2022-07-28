@@ -1,0 +1,135 @@
+body{
+  background-color:rgba(32,33,36,1);
+}
+.google_logo{
+  height: 100px;
+  width: auto;
+}
+
+.navAnc{
+  margin: 3px;
+  padding-right: 10px;
+}
+
+.navAnc:hover{
+  text-decoration: underline;
+}
+
+.google_search{
+  width: 600px;
+  height: 50px;
+  margin: 20px 0;
+  background-color: rgba(32,33,36,1);
+  border-radius: 25px;
+  border: 0.5px solid #5c5f64;
+  outline: 1;
+  padding: 20px;
+  color: white;
+}
+.google_search:hover, .google_search:active, .google_search:focus{
+  background-color: #303134;
+  border: 0px;
+  outline: 0;
+}
+.gButton{
+  background-color: #303134;
+  color: white;
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 0.5px solid #303134;
+}
+.gButton:hover{
+  border: 1px solid #5f6368;
+}
+.navLog{
+  height: 40px;
+  padding-left: 0px;
+}
+
+.advanceSearch{
+  margin: 0 5rem;
+  color: #e48b82;
+}
+.formContainer{
+  margin: 60px 10px 10px 40px;
+}
+.topBox{
+  display: flex;
+  flex-direction: row;
+}
+.leftHead{
+  width: 15%;
+  margin: 16px 16px 16px 0;
+}
+.leftCol{
+  width:15%;
+  margin-top: 4px;
+  color: #bdc1c6;
+  font-size: 14px;
+}
+.widthMidHead{
+  width: 550px;
+  outline: 0;
+  margin: 4px 16px 16px 0;
+}
+.widthMid{
+  width: 550px;
+  outline: 0;
+  margin: 4px 16px 16px 0;
+  color: white;
+  background-color: #202124;
+  border: 0.5px solid #5c5f64;
+  padding: 5px 8px 5px 8px;
+  height: 30px;
+  font-size: 12px;
+}
+.widthMid:focus{
+  border: 1px solid #6588ca;
+}
+.lastMid{
+  width: 260px;
+  outline: 0;
+  margin: 4px 10px 16px 0;
+  color: white;
+  background-color: #202124;
+  border: 0.5px solid #5c5f64;
+  padding: 5px 8px 5px 8px;
+  height: 30px;
+  font-size: 12px;
+}
+.lastMid:focus{
+  border: 1px solid #6588ca;
+}
+.weirdTo{
+  padding: 6px 6px 0 0px;
+  margin: 0 0 0 0;
+}
+.rightHead{
+  width: 15%;
+  margin: 16px 16px 16px 0;
+}
+.rightCol{
+  width: 30%;
+  margin: 4px 0 0 10px;
+  color: #bdc1c6;
+  font-size: 12px;
+}
+.rightCol span{
+  color:white;
+}
+.sButton{
+  width: 550px;
+  
+}
+.sButton button{
+  float: right;
+  padding: 5px 10px;
+  background-color: #8ab4f8;
+  border: 1px solid #8ab4f8;
+  border-radius: 2px;
+  font-size: 13px;
+}
+.sButton button:hover{
+  background-color: #acccff;
+}

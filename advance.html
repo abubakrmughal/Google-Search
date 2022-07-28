@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <!-- http://getbootstrap.com/docs/5.1/ -->
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet">
+        <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"></script>
+
+        <link href="static/styles.css" rel="stylesheet">
+
+        <title>Google: Advanced</title>
+    </head>
+    <body>
+        <nav class="nav navbar-light navbar-expand-lg">
+                <ul class="navbar me-auto">
+                    <li>
+                        <a href="index.html" class="nav-link"><img src="static/Google_logo.png" class="img-responsize d-block me-auto navLog" alt="Google Logo"></a>
+                    </li>
+                </ul>
+        </nav>
+        <header>
+            <p class="h5 advanceSearch">Advanced Search</p>
+        </header>
+        <hr style="color: #5a6064;">
+        <div class="formSetup">
+            <form method="get" autocomplete="off" action="https://google.com/search" class="formContainer">
+                <div class="text-light topBox">
+                    <div class="leftHead">Find pages with...</div>
+                    <div class="widthMidHead"></div>
+                    <div class="rightHead">To do this in the search box.</div>
+                </div>
+
+                <div class="text-light topBox">
+                    <div class="leftCol">all these words:</div>
+                    <div>   
+                        <input type="text" autocomplete="off" class="widthMid" name="as_q">
+                    </div>
+                    <div class="rightCol">Type the important words: <span>tri-colour rat terrier</span></div>
+                </div>
+                
+                <div class="text-light topBox">
+                    <div class="leftCol">this exact word or phrase:</div>
+                    <div>   
+                        <input type="text" autocomplete="off" class="widthMid" name="as_epq">
+                    </div>
+                    <div class="rightCol">Put exact words in quotes: <span>"rat terrier"</span></div>
+                </div>
+
+                <div class="text-light topBox">
+                    <div class="leftCol">any of these words:</div>
+                    <div>   
+                        <input type="text" autocomplete="off" class="widthMid" name="as_oq">
+                    </div>
+                    <div class="rightCol">Type OR between all the words you want: <span>miniature OR standard</span></div>
+                </div>
+
+                <div class="text-light topBox">
+                    <div class="leftCol">none of these words:</div>
+                    <div>   
+                        <input type="text" autocomplete="off" class="widthMid" name="as_eq">
+                    </div>
+                    <div class="rightCol">
+                        Put a minus sign just before words that you don't want:<br><span>-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+
+                <div class="text-light topBox">
+                    <div class="leftCol"></div>
+                    
+                    <div class="sButton">   
+                        <button type="submit" name="">Advance Search</button>
+                    </div>
+
+                    <div class="rightCol"></div>
+                </div>
+                
+                <hr style="color: #5a6064;">
+
+            </form>
+        </div>
+    </body>
+
+    <!-- <div class="text-light topBox">
+                    <div class="leftCol">numbers ranging from:</div>
+                    <div>   
+                        <input type="number" autocomplete="off" class="lastMid">
+                    </div>
+                    <div class="weirdTo">to</div>
+                    <div>
+                        <input type='number' autocomplete="off" class="lastMid">
+                    </div>
+                    <div class="rightCol">
+                        Put two full stops between the numbers and add a unit of measurement:<br><span>10..35 kg, £300..£500, 2010..2011</span>
+                    </div>
+                </div> -->
